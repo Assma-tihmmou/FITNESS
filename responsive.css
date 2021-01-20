@@ -1,0 +1,59 @@
+@media (max-width:348px){
+    html{
+        overflow-x: hidden;
+    }
+    .description{
+        margin-top: -20%;
+        transform: scale(0.7);
+
+    }
+    .logo{
+        transform:scale(1.2);
+        margin-top: 12%;
+    
+    }
+}
+@media(min-width:349px)and (max-width:575px)
+{html{
+    overflow-x: hidden;
+}
+    .description{
+        margin-top: -15%;
+        transform: scale(0.8);
+    }
+    .logo{
+        transform:scale(1.2);
+        margin-top: 12%;
+    
+    }
+
+}
+
+@media (min-width:576px) and (max-width:767px){
+    html{
+        overflow-x: hidden;
+    }
+    .logo{
+margin-top:9%;
+margin-left: 12%;
+transform: scale(1.5);
+}
+.description{
+    margin-top: -7%;
+    font-size: 24px;
+    margin-left: 12%;
+
+}}
+@media (min-width:766px) and (max-width:1657px){
+    .logo{
+margin-top:5%;
+}
+}
+@media (max-width:991px)
+{
+
+    .navbar-toggler-icon{
+        margin-right:129px;
+    }
+}
+
